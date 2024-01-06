@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.337);
+
+}
+.logo{
+    width: 20%;
+
+}
+.navitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.toggle_btn{
+    display: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 70px) ;
+}
+.main .container h1{
+    font-size: 3rem;
+}
+.main .container p{
+    font-size: 1.2rem;
+}
+.main .container span{
+    color:orangered;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: orangered;
+}
+.navbar :hover {
+    color: orangered;
+}
+
+
